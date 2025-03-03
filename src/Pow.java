@@ -1,3 +1,7 @@
+/*
+ * Implement pow(x, n), which calculates x raised to the power n (i.e., xn).
+ */
+//My approach is to use Exponential Squaring to meet performance and memory demands
 public class Pow {
     static Long N = 10000000L;
     private static double Exponent(double x, int n) {
